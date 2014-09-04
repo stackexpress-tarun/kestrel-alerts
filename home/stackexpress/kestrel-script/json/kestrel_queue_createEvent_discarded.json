@@ -1,0 +1,6 @@
+{
+  "id": "kestrel-queue-createEvent-discarded",
+  "hostgroup_name": "queue",
+  "command_line":     "$USER1$/check_memcached -v other -H $HOSTADDRESS$ -p 22133 -l queue_createEvent_discarded -W 1000 -C 2000",
+  "service_template": "default-service"
+}

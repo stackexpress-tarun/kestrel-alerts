@@ -1,0 +1,6 @@
+{
+  "id": "kestrel-cmd-get",
+  "hostgroup_name": "queue",
+  "command_line":     "$USER1$/check_memcached -v other -H $HOSTADDRESS$ -p 22133 -l cmd_get -W 1000 -C 2000",
+  "service_template": "default-service"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "kestrel-queue-resyncUser-bytes",
+  "hostgroup_name": "queue",
+  "command_line":     "$USER1$/check_memcached -v other -H $HOSTADDRESS$ -p 22133 -l queue_resyncUser_bytes -W 1000 -C 2000",
+  "service_template": "default-service"
+}
